@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-size: cover; */
+    background-position: top;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 18px;
+    font-size: 12px;
+    /* padding-left: 10px; */
+    color: white;
+    /* padding-right: 20px; */
+    /* align-content: center; */
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.navbar ul li img {
+    margin-bottom: -5px;
+    padding-right: 30px;
+    padding-left: 10px;
+    margin-left: 8px;
+    align-content: center;
+}
+
+
+.navbar ul {
+    /* align-items: center; */
+    padding: 20px;
+}
+.navbar {
+    background-color: rgb(0, 0, 0);
+    justify-content: center;   
+    text-align: center;
+    
+}   
+
+/* KONTEN */
+
+.iphone h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.iphone h2 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.iphone h3 {
+    color: gray;
+    font-family:cursive;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.more a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 140, 255);
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.navbar ul li a:hover {
+    color: blue;
+}
